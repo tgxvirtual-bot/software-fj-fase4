@@ -1,0 +1,72 @@
+2026-11-21 07:27:16 | INFO     | [OK] 1. Registrar cliente válido (C01)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '1. Registrar cliente válido (C01)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | INFO     | [OK] 2. Registrar cliente válido (C02)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '2. Registrar cliente válido (C02)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | ERROR    | [ERR_DATO_INVALIDO] 3. Intentar registrar cliente con correo inválido (C03) -> Correo electrónico no válido: 'correo_sin_arroba'. (timestamp=2026-11-21T07:27:16.628528)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '3. Intentar registrar cliente con correo inválido (C03)' finalizó con estado FALLIDA.
+2026-11-21 07:27:16 | INFO     | [OK] 4. Registrar servicio ReservaSala (S01)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '4. Registrar servicio ReservaSala (S01)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | INFO     | [OK] 5. Registrar servicio AlquilerEquipo (S02)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '5. Registrar servicio AlquilerEquipo (S02)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | INFO     | [OK] 6. Registrar servicio AsesoriaEspecializada (S03)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '6. Registrar servicio AsesoriaEspecializada (S03)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | ERROR    | [ERR_DATO_INVALIDO] 7. Intentar crear servicio con tarifa base inválida (S04) -> La tarifa base 'no_es_numero' no es un valor numérico válido. (timestamp=2026-11-21T07:27:16.630314)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '7. Intentar crear servicio con tarifa base inválida (S04)' finalizó con estado FALLIDA.
+2026-11-21 07:27:16 | INFO     | [OK] 8. Crear reserva válida de sala (R01)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '8. Crear reserva válida de sala (R01)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | INFO     | [OK] 9. Crear y confirmar reserva válida de equipo (R02)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '9. Crear y confirmar reserva válida de equipo (R02)' finalizó con estado EXITOSA.
+2026-11-21 07:27:16 | ERROR    | [ERR_DATO_INVALIDO] 10. Intentar reserva de sala con duración inválida (15 horas) -> La reserva de sala debe ser de entre 1 y 12 horas. (timestamp=2026-11-21T07:27:16.631184)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '10. Intentar reserva de sala con duración inválida (15 horas)' finalizó con estado FALLIDA.
+2026-11-21 07:27:16 | ERROR    | [ERR_DISPONIBILIDAD] 11. Intentar reserva de asesoría marcada como NO DISPONIBLE -> El servicio 'Arquitectura Cloud y DevOps' (S03) no está disponible. (timestamp=2026-11-21T07:27:16.631558)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '11. Intentar reserva de asesoría marcada como NO DISPONIBLE' finalizó con estado FALLIDA.
+2026-11-21 07:27:16 | ERROR    | [ERR_OPERACION_RESERVA] 12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02) -> La reserva R02 ya se encuentra confirmada. (timestamp=2026-11-21T07:27:16.631822)
+2026-11-21 07:27:16 | INFO     | [CIERRE_OPERACION] '12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02)' finalizó con estado FALLIDA.
+2026-11-21 07:30:10 | INFO     | [OK] 1. Registrar cliente válido (C01)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '1. Registrar cliente válido (C01)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | INFO     | [OK] 2. Registrar cliente válido (C02)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '2. Registrar cliente válido (C02)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | ERROR    | [ERR_DATO_INVALIDO] 3. Intentar registrar cliente con correo inválido (C03) -> Correo electrónico no válido: 'correo_sin_arroba'. (timestamp=2026-11-21T07:30:10.544174)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '3. Intentar registrar cliente con correo inválido (C03)' finalizó con estado FALLIDA.
+2026-11-21 07:30:10 | INFO     | [OK] 4. Registrar servicio ReservaSala (S01)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '4. Registrar servicio ReservaSala (S01)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | INFO     | [OK] 5. Registrar servicio AlquilerEquipo (S02)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '5. Registrar servicio AlquilerEquipo (S02)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | INFO     | [OK] 6. Registrar servicio AsesoriaEspecializada (S03)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '6. Registrar servicio AsesoriaEspecializada (S03)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | ERROR    | [ERR_DATO_INVALIDO] 7. Intentar crear servicio con tarifa base inválida (S04) -> La tarifa base 'no_es_numero' no es un valor numérico válido. (timestamp=2026-11-21T07:30:10.545011)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '7. Intentar crear servicio con tarifa base inválida (S04)' finalizó con estado FALLIDA.
+2026-11-21 07:30:10 | INFO     | [OK] 8. Crear reserva válida de sala (R01)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '8. Crear reserva válida de sala (R01)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | INFO     | [OK] 9. Crear y confirmar reserva válida de equipo (R02)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '9. Crear y confirmar reserva válida de equipo (R02)' finalizó con estado EXITOSA.
+2026-11-21 07:30:10 | ERROR    | [ERR_DATO_INVALIDO] 10. Intentar reserva de sala con duración inválida (15 horas) -> La reserva de sala debe ser de entre 1 y 12 horas. (timestamp=2026-11-21T07:30:10.545578)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '10. Intentar reserva de sala con duración inválida (15 horas)' finalizó con estado FALLIDA.
+2026-11-21 07:30:10 | ERROR    | [ERR_DISPONIBILIDAD] 11. Intentar reserva de asesoría marcada como NO DISPONIBLE -> El servicio 'Arquitectura Cloud y DevOps' (S03) no está disponible. (timestamp=2026-11-21T07:30:10.545801)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '11. Intentar reserva de asesoría marcada como NO DISPONIBLE' finalizó con estado FALLIDA.
+2026-11-21 07:30:10 | ERROR    | [ERR_OPERACION_RESERVA] 12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02) -> La reserva R02 ya se encuentra confirmada. (timestamp=2026-11-21T07:30:10.545991)
+2026-11-21 07:30:10 | INFO     | [CIERRE_OPERACION] '12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02)' finalizó con estado FALLIDA.
+2026-11-21 07:36:04 | INFO     | [OK] 1. Registrar cliente válido (C01)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '1. Registrar cliente válido (C01)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | INFO     | [OK] 2. Registrar cliente válido (C02)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '2. Registrar cliente válido (C02)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | ERROR    | [ERR_DATO_INVALIDO] 3. Intentar registrar cliente con correo inválido (C03) -> Correo electrónico no válido: 'correo_sin_arroba'. (timestamp=2026-11-21T07:36:04.213672)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '3. Intentar registrar cliente con correo inválido (C03)' finalizó con estado FALLIDA.
+2026-11-21 07:36:04 | INFO     | [OK] 4. Registrar servicio ReservaSala (S01)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '4. Registrar servicio ReservaSala (S01)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | INFO     | [OK] 5. Registrar servicio AlquilerEquipo (S02)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '5. Registrar servicio AlquilerEquipo (S02)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | INFO     | [OK] 6. Registrar servicio AsesoriaEspecializada (S03)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '6. Registrar servicio AsesoriaEspecializada (S03)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | ERROR    | [ERR_DATO_INVALIDO] 7. Intentar crear servicio con tarifa base inválida (S04) -> La tarifa base 'no_es_numero' no es un valor numérico válido. (timestamp=2026-11-21T07:36:04.214366)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '7. Intentar crear servicio con tarifa base inválida (S04)' finalizó con estado FALLIDA.
+2026-11-21 07:36:04 | INFO     | [OK] 8. Crear reserva válida de sala (R01)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '8. Crear reserva válida de sala (R01)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | INFO     | [OK] 9. Crear y confirmar reserva válida de equipo (R02)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '9. Crear y confirmar reserva válida de equipo (R02)' finalizó con estado EXITOSA.
+2026-11-21 07:36:04 | ERROR    | [ERR_DATO_INVALIDO] 10. Intentar reserva de sala con duración inválida (15 horas) -> La reserva de sala debe ser de entre 1 y 12 horas. (timestamp=2026-11-21T07:36:04.214874)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '10. Intentar reserva de sala con duración inválida (15 horas)' finalizó con estado FALLIDA.
+2026-11-21 07:36:04 | ERROR    | [ERR_DISPONIBILIDAD] 11. Intentar reserva de asesoría marcada como NO DISPONIBLE -> El servicio 'Arquitectura Cloud y DevOps' (S03) no está disponible. (timestamp=2026-11-21T07:36:04.215020)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '11. Intentar reserva de asesoría marcada como NO DISPONIBLE' finalizó con estado FALLIDA.
+2026-11-21 07:36:04 | ERROR    | [ERR_OPERACION_RESERVA] 12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02) -> La reserva R02 ya se encuentra confirmada. (timestamp=2026-11-21T07:36:04.215163)
+2026-11-21 07:36:04 | INFO     | [CIERRE_OPERACION] '12. Intentar confirmar nuevamente una reserva ya CONFIRMADA (R02)' finalizó con estado FALLIDA.
